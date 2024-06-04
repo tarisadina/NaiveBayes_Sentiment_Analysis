@@ -31,7 +31,7 @@ st.title('PT.KAI Apps Review Sentiment Analysis')
 tab1,tab2,tab3,tab4 = st.tabs(['PT.KAI Apps Information','Sentiment Analysis Model Information','Single Prediction','multi Prediction'])
 with tab1:
     st.title('PT.KAI Apps')
-    st.image('kai-access.jpg')
+    st.image('access-kai.png')
     st.write('')
     st.write('Access by KAI adalah aplikasi super yang berfokus pada pemesanan tiket kereta api serta dikembangkan dan diterbitkan oleh PT Kereta Api Indonesia sebagai KAI Access sejak 2014. KAI Access resmi berubah nama menjadi Access by KAI setelah adanya peluncuran oleh PT Kereta Api Indonesia pada 7 Juli 2023 di Stasiun Gambir, Jakarta Pusat.\n \n Diluncurkan pada tanggal 4 September 2014 sebagai KAI Access, mulanya hanya menawarkan fitur pemesanan tiket kereta api baik jarak jauh maupun menengah, tetapi kini Access by KAI melayani pembelian, ubah jadwal, pembatalan, transfer tiket berbagai hingga layanan perkeretaapian PT KAI maupun anak perusahaannya dan akan melayani layanan hotel, logistik, pulsa, serta paket data.')
     st.write('')
