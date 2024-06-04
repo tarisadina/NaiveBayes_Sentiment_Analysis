@@ -59,7 +59,6 @@ with tab2:
     st.write('Dari 147 ulasan yang termasuk dalam data uji, model ini memprediksi bahwa 140 ulasan memiliki sentimen negatif dan 7 ulasan memiliki sentimen positif. Deskripsi ini menggambarkan kemampuan model dalam mengkategorikan sentimen ulasan pengguna dengan cukup baik.')
 with tab3:
     st.title('Single-Predict Model Demo')
-    st.write(f"**model accuracy** : :green[**{acc}**]%")
     coms = st.text_input('Enter your review about the access by kai app')
 
     submit = st.button('Predict')
@@ -84,7 +83,6 @@ with tab3:
             st.title("🤬 :red[**Sentimen review anda negatif**]")
 with tab4:
     st.title('Multi-Predict Model Demo')
-    st.write(f"**model accuracy** : :green[**{acc}**]%")
     sample_csv = df.iloc[:5, :-1].to_csv(index=False).encode('utf-8')
 
     st.write("")
