@@ -28,7 +28,7 @@ st.set_page_config(
 
 st.title('PT.KAI Apps Review Sentiment Analysis')
 
-tab1,tab2,tab3,tab4 = st.tabs(['PT.KAI Apps Information','Sentiment Analysis Model Information','Single Prediction','multi Prediction'])
+tab1,tab2,tab3,tab4 = st.tabs(['PT.KAI Apps Information','Sentiment Analysis Model Information','Single Prediction','Multi Prediction'])
 with tab1:
     st.title('PT.KAI Apps')
     st.image('access-kai.png')
