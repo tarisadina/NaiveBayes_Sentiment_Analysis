@@ -54,7 +54,7 @@ with tab2:
     st.write('**Hasil Uji:**')
     col1, col2 = st.columns(2)
     col1.image('cf-kai_newpng.png', use_column_width=True)
-    col2.image('pie_kai_new.png',width=435)
+    col2.image('pie_kai_new.png',use_column_width=True)
     st.write('')
     st.write('Dari 138 ulasan yang termasuk dalam data uji, model ini memprediksi bahwa 130 ulasan memiliki sentimen negatif dan 8 ulasan memiliki sentimen positif. Deskripsi ini menggambarkan kemampuan model dalam mengkategorikan sentimen ulasan pengguna dengan cukup baik.')
 with tab3:
